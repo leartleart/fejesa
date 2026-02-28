@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Georgia', serif;
+}
+
+body {
+    text-align: center;
+    color: #444;
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+    background: url('cover.jpg') center/cover no-repeat;
+    position: relative;
+    color: white;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.55);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    letter-spacing: 3px;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin: 10px 0;
+}
+
+.and {
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+.date {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+/* INVITE SECTION */
+.invite {
+    padding: 70px 20px;
+    background: #f9f5f2;
+}
+
+.invite h2 {
+    margin-bottom: 20px;
+}
+
+.details {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 40px;
+}
+
+/* MEMORIES */
+.memories {
+    padding: 70px 20px;
+}
+
+.memories h2 {
+    margin-bottom: 40px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.photo-box {
+    width: 220px;
+}
+
+.photo-box img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+}
+
+.photo-box img:hover {
+    transform: scale(1.05);
+}
+
+.photo-box p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* FOOTER */
+footer {
+    padding: 30px;
+    background: #111;
+    color: white;
+}
